@@ -16,7 +16,7 @@ Let’s create an S3 bucket named “demo-textract” and two folders inside nam
 # Let’s code in lambda
 Create lambada function with S3 and AWS Textract IAM, we will use python as programming language, first step is import all libraries needed
 
-'''
+```
 from io import BytesIO, StringIO
 import pandas as pd
 import boto3
@@ -24,4 +24,4 @@ import json
 
 textract = boto3.client("textract")
 conn = boto3.client("s3")
-'''
+```
