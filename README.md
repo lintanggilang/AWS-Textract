@@ -144,11 +144,11 @@ FeatureTypes=[“TABLES”]
 This part instructs Textract to focus specifically on extracting tables from the document. Textract offers other features like FORMS and QUERIES for different analysis needs.
 
 # What Next ?
-Explore other AWS Textract features such as query, form, and layout features
-analyze_document is a synchronous operation. To analyze documents asynchronously, use StartDocumentAnalysis (Multi Page)
-Lambda functions can be set to be triggered from S3, so jobs will run automatically
-Output of OCR can be stored in a database such as MySQL or PostgreSQL
-Create an API that has OCR features
+* Explore other AWS Textract features such as query, form, and layout features
+* analyze_document is a synchronous operation. To analyze documents asynchronously, use StartDocumentAnalysis (Multi Page)
+* Lambda functions can be set to be triggered from S3, so jobs will run automatically
+* Output of OCR can be stored in a database such as MySQL or PostgreSQL
+* Create an API that has OCR features
 
 [Here is My Medium](https://medium.com/aws-tip/aws-textract-will-help-you-get-hired-ce77447ee1e9)
 
