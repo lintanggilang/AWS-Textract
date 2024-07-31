@@ -150,7 +150,7 @@ Lambda functions can be set to be triggered from S3, so jobs will run automatica
 Output of OCR can be stored in a database such as MySQL or PostgreSQL
 Create an API that has OCR features
 
-[Here is My Medium]([https://docs.example.com](https://medium.com/aws-tip/aws-textract-will-help-you-get-hired-ce77447ee1e9))
+[Here is My Medium](https://medium.com/aws-tip/aws-textract-will-help-you-get-hired-ce77447ee1e9)
 
 Best Regards
 
