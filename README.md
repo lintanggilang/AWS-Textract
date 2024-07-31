@@ -25,3 +25,10 @@ import json
 textract = boto3.client("textract")
 conn = boto3.client("s3")
 ```
+
+* from io import BytesIO, StringIO : Imports the BytesIO and StringIO classes from the io module. These are commonly used for reading and writing binary data (Bytes) and string data (String).
+* import pandas as pd : Imports the pandas library and aliases it as pd. Pandas is a library used for data analysis, particularly for tabular data structures.
+* import boto3 : Imports the boto3 library, which serves as the Python interface for AWS (Amazon Web Services) services. It enables access to various AWS services such as S3, EC2, and others.
+* import json : Imports the json module for working with data in JSON format.
+* textract = boto3.client(“textract”) : Creates a Textract client object from the boto3 library. Textract is an AWS service for extracting text and data from documents.
+* conn = boto3.client(“s3”) : Creates an S3 client object from the boto3 library. S3 is an object storage service in AWS.
